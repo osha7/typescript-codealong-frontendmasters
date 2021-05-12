@@ -1,0 +1,17 @@
+// two things to think about when setting up config
+// #1 Which files are the inputs ?
+// #2 How are we compiling it?
+
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ES2017",
+        "outDir": "lib", // output goes to a different directory - the lib folder
+        // pulish only the compiled output
+        "declaration": true,
+        "sourceMap": true,
+        "strict": true, 
+        // "jsx": "react, // tsx files will allow you to work with React
+    },
+    "include": ["src"]
+}
