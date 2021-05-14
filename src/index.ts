@@ -20,3 +20,11 @@ export async function addNumbers(a: number, b: number) {
 (async () => {
     console.log(await addNumbers(3, 4));
 })();
+
+
+interface Address {
+    streetNumber: number;
+    streetName: string;
+};
+
+let newAddress: Address = { streetNumber: 313, streetName: "Some Street" };
